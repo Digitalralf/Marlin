@@ -1,4 +1,10 @@
-# Marlin 3D Printer Firmware
+# Marlin Firmware for Anet A8 Plus with a BTT SKR 1.4 Board
+
+This is a fork of marlin with a configuration for an Anet A8 plus with a BigTreeTech SKR v1.4 board in it instead of the original Anet board. I found that the original steppers where way to loud so I changed the board. 
+
+This fork is for my own convenience, it is based on the original example config for the A8 plus, The config given from BTT and some of my own modification I made. Be aware that I did made some hardware modification related tot the screen cable and modified the endstops plugs to have the logic be inverted. In the future i might specify what those changes exactly are. I am not responsible for the failure of your printer if you decide to use anything of what I make.
+
+## Original Marlin Readme
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
@@ -10,20 +16,20 @@
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
 
-## Marlin 2.0
+### Marlin 2.0
 
 Marlin 2.0 takes this popular RepRap firmware to the next level by adding support for much faster 32-bit and ARM-based boards while improving support for 8-bit AVR boards. Read about Marlin's decision to use a "Hardware Abstraction Layer" below.
 
 Download earlier versions of Marlin on the [Releases page](https://github.com/MarlinFirmware/Marlin/releases).
 
-## Building Marlin 2.0
+### Building Marlin 2.0
 
 To build Marlin 2.0 you'll need [Arduino IDE 1.8.8 or newer](https://www.arduino.cc/en/main/software) or [PlatformIO](http://docs.platformio.org/en/latest/ide.html#platformio-ide). Detailed build and install instructions are posted at:
 
   - [Installing Marlin (Arduino)](http://marlinfw.org/docs/basics/install_arduino.html)
   - [Installing Marlin (VSCode)](http://marlinfw.org/docs/basics/install_platformio_vscode.html).
 
-### Supported Platforms
+#### Supported Platforms
 
   Platform|MCU|Example Boards
   --------|---|-------
@@ -41,13 +47,13 @@ To build Marlin 2.0 you'll need [Arduino IDE 1.8.8 or newer](https://www.arduino
   [Teensy 4.0](https://www.pjrc.com/store/teensy40.html)|ARM® Cortex-M7|
   [Teensy 4.1](https://www.pjrc.com/store/teensy41.html)|ARM® Cortex-M7|
 
-## Submitting Changes
+### Submitting Changes
 
 - Submit **Bug Fixes** as Pull Requests to the ([bugfix-2.0.x](https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x)) branch.
 - Follow the [Coding Standards](http://marlinfw.org/docs/development/coding_standards.html) to gain points with the maintainers.
 - Please submit your questions and concerns to the [Issue Queue](https://github.com/MarlinFirmware/Marlin/issues).
 
-## Marlin Support
+### Marlin Support
 
 For best results getting help with configuration and troubleshooting, please use the following resources:
 
@@ -59,7 +65,7 @@ For best results getting help with configuration and troubleshooting, please use
 - Facebook Group ["Marlin Firmware for 3D Printers"](https://www.facebook.com/groups/3Dtechtalk/)
 - [Marlin Configuration](https://www.youtube.com/results?search_query=marlin+configuration) on YouTube
 
-## Credits
+### Credits
 
 The current Marlin dev team consists of:
 
@@ -69,7 +75,7 @@ The current Marlin dev team consists of:
  - Bob Kuhn [[@Bob-the-Kuhn](https://github.com/Bob-the-Kuhn)] - USA
  - Erik van der Zalm [[@ErikZalm](https://github.com/ErikZalm)] - Netherlands &nbsp; [![Flattr Erik](https://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=ErikZalm&url=https://github.com/MarlinFirmware/Marlin&title=Marlin&language=&tags=github&category=software)
 
-## License
+### License
 
 Marlin is published under the [GPL license](/LICENSE) because we believe in open development. The GPL comes with both rights and obligations. Whether you use Marlin firmware as the driver for your open or closed-source product, you must keep Marlin open, and you must provide your compatible Marlin source code to end users upon request. The most straightforward way to comply with the Marlin license is to make a fork of Marlin on Github, perform your modifications, and direct users to your modified fork.
 
