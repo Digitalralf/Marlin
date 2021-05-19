@@ -1,3 +1,3 @@
-# This file is empty
+# Where have all the configurations gone?
 
-Go to the original Marlin branche for the downloads. I made my own changes
+## https://github.com/MarlinFirmware/Configurations/archive/release-2.0.8.1.zip
