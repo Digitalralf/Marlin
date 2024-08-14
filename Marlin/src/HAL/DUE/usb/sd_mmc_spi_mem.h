@@ -45,7 +45,6 @@
  * Support and FAQ: visit <a href="https://www.atmel.com/design-support/">Atmel Support</a>
  */
 
-
 #ifndef _SD_MMC_SPI_MEM_H_
 #define _SD_MMC_SPI_MEM_H_
 
@@ -63,9 +62,7 @@
   #error sd_mmc_spi_mem.h is #included although SD_MMC_SPI_MEM is disabled
 #endif
 
-
 #include "ctrl_access.h"
-
 
 //_____ D E F I N I T I O N S ______________________________________________
 
@@ -73,8 +70,7 @@
 #define   SD_MMC_INSERTED      1
 #define   SD_MMC_REMOVING      2
 
-
-//---- CONTROL FONCTIONS ----
+//---- CONTROL FUNCTIONS ----
 //!
 //! @brief This function initializes the hw/sw resources required to drive the SD_MMC_SPI.
 //!/
@@ -133,8 +129,7 @@ extern bool           sd_mmc_spi_wr_protect(void);
 //!
 extern bool           sd_mmc_spi_removal(void);
 
-
-//---- ACCESS DATA FONCTIONS ----
+//---- ACCESS DATA FUNCTIONS ----
 
 #if ACCESS_USB == true
 // Standard functions for open in read/write mode the device
